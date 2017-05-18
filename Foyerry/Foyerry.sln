@@ -6,6 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foyerry.Tools", "Foyerry.Tools\Foyerry.Tools.csproj", "{5441F4ED-1D18-4695-96E6-AC86BEACE12A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foyerry.Tests", "Foyerry.Tests\Foyerry.Tests.csproj", "{71F4C446-5706-4A55-8D2F-B256090A1ABA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5441F4ED-1D18-4695-96E6-AC86BEACE12A} = {5441F4ED-1D18-4695-96E6-AC86BEACE12A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foyerry.SignalR", "Foyerry.SignalR\Foyerry.SignalR.csproj", "{AB48BA3F-266B-43B8-9C36-45DFACAF47D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{FAE986C8-CB10-4570-8D9C-030830598FDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,14 @@ Global
 		{71F4C446-5706-4A55-8D2F-B256090A1ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F4C446-5706-4A55-8D2F-B256090A1ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F4C446-5706-4A55-8D2F-B256090A1ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB48BA3F-266B-43B8-9C36-45DFACAF47D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB48BA3F-266B-43B8-9C36-45DFACAF47D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB48BA3F-266B-43B8-9C36-45DFACAF47D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB48BA3F-266B-43B8-9C36-45DFACAF47D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE986C8-CB10-4570-8D9C-030830598FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE986C8-CB10-4570-8D9C-030830598FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE986C8-CB10-4570-8D9C-030830598FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE986C8-CB10-4570-8D9C-030830598FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
